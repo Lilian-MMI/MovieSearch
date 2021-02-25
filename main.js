@@ -248,8 +248,8 @@ __webpack_require__.r(__webpack_exports__);
 class RequestEmailApiService {
     constructor(http) {
         this.http = http;
-        this.apiUrl = 'http://apilayer.net/api/check';
-        this.key = '4337e20cdb201229c37ec722bf1ebd30';
+        this.apiUrl = 'https://apilayer.net/api/check';
+        this.key = '256fb1427852b77d50bce9331efa03a2';
     }
     findEmail(email) {
         return this.http.get(`${this.apiUrl}?access_key=${this.key}&email=${email}`);
